@@ -1,0 +1,53 @@
+<div id="frontBlock">
+  <nav>
+    <a href="/">Home&nbsp&nbsp&nbsp</a>
+    <a href="/dashboard">Dashboard&nbsp&nbsp&nbsp</a>
+    <a href="/logout">Logout</a>
+  </nav>
+  <div id="titleCard">
+    <div id="tech-blog-title">Tech Blog!</div>
+  </div>
+</div>
+
+
+
+{{#each posts}}
+  <div id="post-and-comment-card">
+
+    <div class="blog-selection" data-postId="{{id}}">
+      <h1 postId="{{id}}">{{title}}</h1>
+      <p>{{body}}</p>
+      <div id="blog-select-content" postId="{{id}}">{{content}}</div>
+      <div id="blog-select-user" postId="{{id}}">-{{username}}</div>
+      <h4 postId="{{id}}">Created {{createdAt}}</h4>
+    </div>
+
+    <div id="comment-card">
+      <div id="comment-form" blog-id="{{id}}">
+        <form>
+          <div>
+            <textarea id="comment-text"></textarea>
+          </div>
+          <div>
+            <button
+              data-postId="{{id}}"
+              class="btn btn-comment"
+              type="submit"
+            >Comment</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="all-comments">
+        <h4>This Post's Comments:</h4>
+        {{#each comments}}
+          <div id="comment-content">{{body}}</div>
+        {{/each}}
+      </div>
+    </div>
+
+  </div>
+
+{{/each}}
+
+<script src="/js/home.js"></script>

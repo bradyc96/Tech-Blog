@@ -1,0 +1,140 @@
+
+body {
+    background-color: rgb(0, 11, 41);
+}
+
+.logBody {
+    background-color: rgb(187, 224, 255);
+    height: 40vh;
+    margin-top: 2rem;
+}
+
+.logBody h2 {
+    font-size: 200%;
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+#frontBlock {
+    background-color: rgb(4, 25, 82);
+    color: white;
+}
+
+nav {
+    padding: 1.5rem;
+    font-size: 125%;
+}
+
+#titleCard {
+    background-color:  rgb(0, 11, 41);
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+a:visited {
+    text-decoration: none; color:white;
+}
+
+a:link { text-decoration: none; }
+
+
+a:hover { text-decoration: none; color: red;}
+
+
+a:active { text-decoration: none; }
+
+nav ul li {
+    padding: 0px 20px;
+}
+
+#post-and-comment-card {
+    background-color: rgb(187, 224, 255);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 8px;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding-bottom: 30px;
+
+}
+
+#comment-form {
+    padding-bottom: 1.5rem;
+}
+
+
+#tech-blog-title {
+    font-size: 350%;
+    margin-top: .7rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+#dashboardCard {
+    background-color: rgb(187, 224, 255);
+    margin-top: 3rem;
+    padding: 5%;
+}
+
+#dashboardCard button {
+    margin-left: 3.75rem;
+    width: 4.5rem;
+    margin-top: -2.5rem;
+}
+
+.form-group input {
+    margin-left: 1.3rem;
+    width: 50rem;
+}
+
+.form-group textarea {
+    height: 7rem;
+    width: 50rem;
+    margin-top: 1rem;
+}
+
+.form-group button {
+    margin-top: 1rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.signupCard {
+    background-color: rgb(187, 224, 255);
+    height: 40vh;
+    margin-top: 2rem;
+}
+.signupCard h2 {
+    font-size: 200%;
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.loginButton button {
+    margin-left: 1.3rem;
+    margin-top: .25rem;
+    width: 5rem;
+}
+.createDiv {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.createDiv a {
+    color: rgb(37, 37, 37);
+}
+.createDiv :hover{
+    color: red;
+}
+
+.createAccountButton button {
+    width: 10rem;
+    margin-top: .5rem;
+    margin-left: 1.3rem;
+}
+
+.form-group {
+    padding: 1px;
+}
