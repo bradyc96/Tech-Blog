@@ -1,4 +1,7 @@
-
+/* 
+* {
+    font-family: sans-serif;
+} */
 body {
     background-color: rgb(0, 11, 41);
 }
@@ -47,18 +50,26 @@ nav ul li {
     padding: 0px 20px;
 }
 
+
+
 #post-and-comment-card {
     background-color: rgb(187, 224, 255);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     padding-left: 8px;
-    padding-top: 1rem;
-    margin-top: 2rem;
+    padding-top: 0.5rem;
+    margin-top: 2.5rem;
     border-radius: 15px;
     padding-bottom: 30px;
-
 }
 
+#post-and-comment-card h1 {
+    font-size: 230%;
+}
+
+#post-and-comment-card p {
+    font-size: 115%;
+}
 #comment-form {
     padding-bottom: 1.5rem;
 }
